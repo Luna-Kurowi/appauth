@@ -14,6 +14,11 @@ def page_hr():
     # Redirect to a different URL for HR, e.g., another service or page
     return redirect(f"http://{url}:5700", code=302)
 
+@app.route('/gamers')
+def page_gamers():
+    # Redirect to a different URL for Gamers, e.g., another service or page
+    return redirect(f"http://{url}:5800", code=302)
+
 @app.route('/')
 def index():
     return """

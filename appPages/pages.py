@@ -25,6 +25,14 @@ def home():
             <p>Bonjour!</p>
             <p>Guten Tag!</p>
         """
+    elif role == 'GAMERS':
+        return """
+            <h1>Welcome to the Gamers page!</h1>
+            <p>Ready to level up?</p>
+            <p>Let's play!</p>
+            <p>Game on!</p>
+            <div><script src="https://cdn.htmlgames.com/embed.js?game=TetrisFun&amp;bgcolor=white"></script></div>
+        """
     else:
         return """
             <h1>Welcome to the default page!</h1>
